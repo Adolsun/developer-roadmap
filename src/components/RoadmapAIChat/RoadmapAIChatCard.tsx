@@ -1,8 +1,8 @@
-import type { RoamdapAIChatHistoryType } from './RoadmapAIChat';
+import type { RoadmapAIChatHistoryType } from './RoadmapAIChat';
 import { cn } from '../../lib/classname';
 import { BotIcon, User2Icon } from 'lucide-react';
 
-type RoadmapAIChatCardProps = RoamdapAIChatHistoryType & {
+type RoadmapAIChatCardProps = RoadmapAIChatHistoryType & {
   isIntro?: boolean;
 };
 
